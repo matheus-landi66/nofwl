@@ -1,0 +1,89 @@
+lang: Deutsch
+hello: Hallo NoFWL
+window:
+  message:
+    close: Willst du die Anwendung schließen, wenn du [x] drückst?
+menu:
+  app:
+    about: Über NoFWL
+    check_update: Auf Updates prüfen
+  preferences:
+    name: Einstellungen
+    control_center: Kontrollzentrum
+    stay_on_top: Im Vordergrund bleiben
+    titlebar: Titelleiste
+    hide_dock_icon: Taskleistensymbol verstecken
+    language: Sprache
+    theme:
+      name: Darstellung
+      light: Hell
+      dark: Dunkel
+      system: System
+    sponsor: NoFWL unterstützen
+  mode:
+    name: Modus
+  edit:
+    name: Bearbeiten
+  view:
+    name: Fenster
+    go_back: Zurück
+    go_forward: Vorwärts
+    scroll_top: Zum oberen Bildschirmrand scrollen
+    scroll_bottom: Zum unteren Bildschirmrand scrollen
+    zoom_0: Auf Originialgröße zurücksetzen
+    zoom_out: Verkleinern
+    zoom_in: Vergrößern
+    reload: Neu laden
+  help:
+    name: Hilfe
+    app_log: NoFWL-Protokoll
+    report_bug: Bug melden
+    feedback: Feedback
+    dev_tools: Entwicklerwerkzeuge anzeigen/verstecken
+
+gpt:
+  button:
+    cancel: Abbrechen
+    save: Speichern
+    regenerate_response: Regeneriere Antwort
+    stop_generating: Generierung stoppen
+  sidebar:
+    menu_title:
+      new: Neuer Chat
+      history: Chatverlauf
+      prompts: Aufforderungen
+      export_md: Markdown exportieren
+      settings: Einstellungen
+      hide_side: Seite verstecken
+    message:
+      chat_history: Chatverlauf
+      chat_delete: Bist du dir sicher, dass du diesen Chat löschen willst? Er kann nicht wiederhergestellt werden!
+  modal:
+    settings_title: GPT-Einstellungen
+    chat_avatar:
+      label: Chatavatar
+      tip: '(Quadrat: 200x200)'
+      warn: Ungültiger Dateityp. Bitte wähle JPEG (JPG) oder PNG!
+    api_key:
+      label: API-Schlüssel
+      warn: Der API-Schlüssel darf nicht leer sein!
+      title: Über den API-Schlüssel
+      link: Erhalte deinen API-Schlüssel von OpenAI
+      context: Dein API-Schlüssel wird lokal gespeichert und wird nicht geteilt.
+    model: Modell
+    context_level:
+      label: Kontextebene
+      title: Was ist die Kontextebene?
+      context: Das Modell kann keine vergangenen Anfragen abspeichern und muss deshalb durch den Dialog mit allen relevanten Informationen versorgt werden. Die Antwort basiert auf einer gegebenen Kontextebene, die die neuesten N Informationen in einem Bereich von 0-100 berücksichtigt.
+  main:
+    message:
+      delete_confirm: Sicher?
+
+control_center:
+  menu:
+    settings: Settings
+    prompts:
+      name: Prompts
+      user_custom: User Custom
+      sync_prompts: Sync Prompts
+      sync_custom: Sync Custom

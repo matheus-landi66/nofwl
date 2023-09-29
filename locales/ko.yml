@@ -1,0 +1,89 @@
+lang: 한국어
+hello: 안녕 NoFWL
+window:
+  message:
+    close: '[x] 버튼을 눌러 앱을 종료하시겠습니까?'
+menu:
+  app:
+    about: NoFWL 정보
+    check_update: 업데이트 확인
+  preferences:
+    name: 설정
+    control_center: 제어 센터
+    stay_on_top: 창을 맨 위에 고정하기
+    titlebar: 제목 표시줄
+    hide_dock_icon: Dock 아이콘 숨기기
+    language: 언어
+    theme:
+      name: 테마
+      light: 밝음
+      dark: 어두움
+      system: 시스템
+    sponsor: NoFWL 스폰서
+  mode:
+    name: 모드
+  edit:
+    name: 편집
+  view:
+    name: 보기
+    go_back: 취소
+    go_forward: 되돌리기
+    scroll_top: 맨 위로 스크롤 하기
+    scroll_bottom: 맨 아래로 스크롤 하기
+    zoom_0: 화면에 맞추기
+    zoom_out: 축소
+    zoom_in: 확대
+    reload: 새로고침
+  help:
+    name: 도움말
+    app_log: NoFWL 로그
+    report_bug: 버그 제보하기
+    feedback: 피드백 보내기
+    dev_tools: 개발자 도구 활성화
+
+gpt:
+  button:
+    cancel: 취소
+    save: 저장
+    regenerate_response: 응답 재생성
+    stop_generating: 생성 중단
+  sidebar:
+    menu_title:
+      new: 새로운 대화
+      history: 대화 기록
+      prompts: 프롬프트
+      export_md: 마크다운 내보내기
+      settings: 설정
+      hide_side: 사이드바 닫기
+    message:
+      chat_history: 대화 기록
+      chat_delete: 정말로 이 기록을 삭제하시겠습니까? 삭제 후 되돌릴 수 없습니다.
+  modal:
+    settings_title: GPT 설정
+    chat_avatar:
+      label: 채팅 프로필
+      tip: '(정사각형: 200x200)'
+      warn: 잘못된 파일 형식입니다. JPEG (JPG) 또는 PNG 이미지를 선택하세요!
+    api_key:
+      label: API 키
+      warn: API 키를 입력해야 합니다!
+      title: API 키 정보
+      link: OpenAI에서 API 키 가져오기
+      context: API 키는 로컬에 저장되며, 외부로 전송되지 않습니다.
+    model: 모델
+    context_level:
+      label: 콘텍스트 레벨
+      title: 콘텍스트 레벨이 무엇인가요?
+      context: 모델은 과거 요청을 기억하지 않기 때문에, 대화를 통해 관련된 정보를 제공해야 합니다. 요청 시 전달할 0-100 사이의 최근 정보의 개수를 콘텍스트 레벨이라고 합니다.
+  main:
+    message:
+      delete_confirm: 정말 삭제할까요?
+
+control_center:
+  menu:
+    settings: 설정
+    prompts:
+      name: 프롬프트
+      user_custom: 사용자 지정
+      sync_prompts: 프롬프트 동기화
+      sync_custom: 사용자 지정 동기화

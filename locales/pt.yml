@@ -1,0 +1,89 @@
+lang: Português
+hello: Olá, NoFWL!
+window:
+  message:
+    close: Você deseja sair da aplicação quando clicar no botão [x]?
+menu:
+  app:
+    about: Sobre NoFWL
+    check_update: Procurar por atualizações
+  preferences:
+    name: Preferências
+    control_center: Central de Controle
+    stay_on_top: Permanecer no topo
+    titlebar: Barra de título
+    hide_dock_icon: Ocultar ícone da dock
+    language: Idioma
+    theme:
+      name: Tema
+      light: Claro
+      dark: Escuro
+      system: Sistema
+    sponsor: Patrocinar NoFWL
+  mode:
+    name: Modo
+  edit:
+    name: Editar
+  view:
+    name: Visualizar
+    go_back: Voltar
+    go_forward: Avançar
+    scroll_top: Rolar para o topo da tela
+    scroll_bottom: Rolar para o final da tela
+    zoom_0: Tamanho Real
+    zoom_out: Reduzir Tamanho
+    zoom_in: Aumentar Tamanho
+    reload: Atualizar
+  help:
+    name: Ajuda
+    app_log: Log
+    report_bug: Reportar falhas
+    feedback: Feedback
+    dev_tools: Ferramentas de Desenvolvedor
+
+gpt:
+  button:
+    cancel: Cancelar
+    save: Salvar
+    regenerate_response: Regenerar resposta
+    stop_generating: Parar a geração
+  sidebar:
+    menu_title:
+      new: Novo
+      history: Histórico
+      prompts: Prompts
+      export_md: Exportar para Markdown
+      settings: Configurações
+      hide_side: Ocultar Menu
+    message:
+      chat_history: Histórico
+      chat_delete: Tem certeza de que deseja excluir este registro de chat? Ele não poderá ser restaurado após a exclusão!
+  modal:
+    settings_title: Configuralções do GPT
+    chat_avatar:
+      label: Avatar
+      tip: '(Dimensão: 200x200)'
+      warn: Tipo de arquivo inválido. Por favor, selecione uma imagem JPEG, JPG ou PNG!
+    api_key:
+      label: Chave API
+      warn: A Chave API não pode estar em branco!
+      title: Sobre a Chave API
+      link: Solicite sua Chave API com a OpenAI
+      context: Sua Chave API é armazenada localmente e nunca será enviada para nenhum outro lugar.
+    model: Modelo
+    context_level:
+      label: Nível de contexto
+      title: O que é o nível de contexto?
+      context: O modelo não tem memória de solicitações anteriores e deve ser fornecido com todas as informações relevantes por meio de diálogo. As solicitações serão baseadas em um nível de contexto definido que leva em consideração as informações mais recentes dentro de um intervalo de 0-100.
+  main:
+    message:
+      delete_confirm: Confirma?
+
+control_center:
+  menu:
+    settings: Settings
+    prompts:
+      name: Prompts
+      user_custom: User Custom
+      sync_prompts: Sync Prompts
+      sync_custom: Sync Custom

@@ -1,0 +1,89 @@
+lang: Italiano
+hello: Ciao NoFWL
+window:
+  message:
+    close: Vuoi uscire dall'applicazione quando fai clic sul pulsante [x]?
+menu:
+  app:
+    about: Info su NoFWL
+    check_update: Controlla Aggiornamenti
+  preferences:
+    name: Preferenze
+    control_center: Centro di Controllo
+    stay_on_top: Rimani in Primo Piano
+    titlebar: Titolo della Barra
+    hide_dock_icon: Nascondi Icona Dock
+    language: Lingua
+    theme:
+      name: Tema
+      light: Chiaro
+      dark: Scuro
+      system: Sistema
+    sponsor: Sostieni NoFWL
+  mode:
+    name: Modalità
+  edit:
+    name: Modifica
+  view:
+    name: Visualizzazione
+    go_back: Torna Indietro
+    go_forward: Avanti
+    scroll_top: Scorri in Alto
+    scroll_bottom: Scorri in Basso
+    zoom_0: Dimensione Attuale
+    zoom_out: Diminuisci Zoom
+    zoom_in: Aumenta Zoom
+    reload: Aggiorna la Schermata
+  help:
+    name: Aiuto
+    app_log: Registro di NoFWL
+    report_bug: Segnala errore
+    feedback: Feedback
+    dev_tools: Attiva/Disattiva Strumenti Sviluppatore
+
+gpt:
+  button:
+    cancel: Annulla
+    save: Salva
+    regenerate_response: Regenerate response
+    stop_generating: Stop generating
+  sidebar:
+    menu_title:
+      new: Nuova Chat
+      history: Cronologia Chat
+      prompts: Suggerimenti
+      export_md: Esporta in Markdown
+      settings: Impostazioni
+      hide_side: Nascodi la Barra Laterale
+    message:
+      chat_history: Cronologia Chat
+      chat_delete: Sei sicuro di voler eliminare le cronologie chat? Non è possibile ripristinarle dopo l'eliminazione!
+  modal:
+    settings_title: Impostazioni GPT
+    chat_avatar:
+      label: Avatar Chat
+      tip: '(quadrato: 200x200)'
+      warn: Tipo di file non valido. Seleziona un immagine JPEG (JPG) o PNG!
+    api_key:
+      label: Chiave API
+      warn: La chiave API non può essere vuota!
+      title: Informazioni sulla Chiave API
+      link: Ottieni la tua Chiave API da OpenAI
+      context: La tua Chiave API è memorizzata in locale e non verrà mai inviata altrove.
+    model: Modello
+    context_level:
+      label: Ammontare di Contesto
+      title: Che cos'è il livello di contesto?
+      context: Il modello non ha memoria delle richieste precedenti e deve essere fornito di tutte le informazioni pertinenti attraverso il dialogo. Le richieste saranno basate su un livello di contesto preimpostato che prende in considerazione le N informazioni più recenti all'interno di un intervallo da 0 a 100.
+  main:
+    message:
+      delete_confirm: Sei sicuro?
+
+control_center:
+  menu:
+    settings: Settings
+    prompts:
+      name: Prompts
+      user_custom: User Custom
+      sync_prompts: Sync Prompts
+      sync_custom: Sync Custom

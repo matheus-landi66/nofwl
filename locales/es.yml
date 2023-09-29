@@ -1,0 +1,89 @@
+lang: Español
+hello: Hola NoFWL
+window:
+  message:
+    close: ¿Quieres salir de la aplicación al pulsar el botón [x]?
+menu:
+  app:
+    about: Sobre NoFWL
+    check_update: Buscar Actualizaciones
+  preferences:
+    name: Preferencias
+    control_center: Panel de Control
+    stay_on_top: Mantener en Primer Plano
+    titlebar: Título de la Barra
+    hide_dock_icon: Ocultar Icono del Dock
+    language: Idioma
+    theme:
+      name: Tema
+      light: Claro
+      dark: Oscuro
+      system: Sistema
+    sponsor: Apoya a NoFWL
+  mode:
+    name: Modo
+  edit:
+    name: Editar
+  view:
+    name: Ver
+    go_back: Deshacer
+    go_forward: Rehacer
+    scroll_top: Ir arriba
+    scroll_bottom: Ir abajo
+    zoom_0: Reestablecer Zoom
+    zoom_out: Disminuir Zoom
+    zoom_in: Aumentar Zoom
+    reload: Refrescar la ventana
+  help:
+    name: Ayuda
+    app_log: NoFWL Log
+    report_bug: Reportar Error
+    feedback: Feedback
+    dev_tools: Mostrar/Ocultar las Herramientas de Desarrollo
+
+gpt:
+  button:
+    cancel: Cancelar
+    save: Guardar
+    regenerate_response: Regenerar respuesta
+    stop_generating: Detener generación
+  sidebar:
+    menu_title:
+      new: Nuevo Chat
+      history: Historial de Chats
+      prompts: Prompts
+      export_md: Exportar como Markdown
+      settings: Ajustes
+      hide_side: Ocultar barra lateral
+    message:
+      chat_history: Historial del Chat
+      chat_delete: ¿Seguro que quieres eliminar este chat? ¡No se podrá recuperar tras eliminarlo!
+  modal:
+    settings_title: Ajustes de GPT
+    chat_avatar:
+      label: Avatar del Chat
+      tip: '(cuadrado: 200x200)'
+      warn: Formato de fichero incorrecto. Por favor, selecciona un archivo JPEG (JPG) o PNG.
+    api_key:
+      label: Clave API
+      warn: ¡La Clave API no puede estar vacía!
+      title: Sobre la Clave API
+      link: Consigue tu Clave API de OpenAI
+      context: Tu Clave API se almacena localmente y nunca será compartida.
+    model: Modelo
+    context_level:
+      label: Nivel de Contexto
+      title: ¿Qué es el Nivel de Contexto?
+      context: El modelo no mantiene en su memoria las conversaciones anteriores y debes proveer la información relevante a través del diálogo. Las solicitudes se basarán en un nivel de contexto establecido que tome los N fragmentos más recientes de información dentro de un rango de 0 a 100.
+  main:
+    message:
+      delete_confirm: ¿Estás seguro?
+
+control_center:
+  menu:
+    settings: Settings
+    prompts:
+      name: Prompts
+      user_custom: User Custom
+      sync_prompts: Sync Prompts
+      sync_custom: Sync Custom

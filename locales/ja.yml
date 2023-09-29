@@ -1,0 +1,89 @@
+lang: 日本語
+hello: こんにちは NoFWL
+window:
+  message:
+    close: ウインドウを閉じたとき、アプリケーションを終了しますか？
+menu:
+  app:
+    about: NoFWL について
+    check_update: 更新を確認
+  preferences:
+    name: 設定
+    control_center: コントロールセンター
+    stay_on_top: 常に最前面に表示
+    titlebar: タイトルバー
+    hide_dock_icon: ドックアイコンを非表示
+    language: 言語
+    theme:
+      name: 外観モード
+      light: ライト
+      dark: ダーク
+      system: システムと同期
+    sponsor: NoFWL を支援
+  mode:
+    name: モード
+  edit:
+    name: 編集
+  view:
+    name: 表示
+    go_back: 戻る
+    go_forward: 進む
+    scroll_top: 画面の移動
+    scroll_bottom: 画面の一番下へ移動
+    zoom_0: 実際のサイズ
+    zoom_out: 縮小
+    zoom_in: 拡大
+    reload: 画面を再読み込み
+  help:
+    name: ヘルプ
+    app_log: NoFWL ログ
+    report_bug: バグを報告
+    feedback: フィードバック
+    dev_tools: 開発者ツールの切り替え
+
+gpt:
+  button:
+    cancel: キャンセル
+    save: 保存
+    regenerate_response: 回復を再生
+    stop_generating: 生成を停止
+  sidebar:
+    menu_title:
+      new: 新しいチャット
+      history: チャット履歴
+      prompts: プロンプト
+      export_md: Markdown でエクスポート
+      settings: 設定
+      hide_side: サイドバーを隠す
+    message:
+      chat_history: チャット履歴
+      chat_delete: このチャット履歴を削除しますか？この操作は取り消せません。
+  modal:
+    settings_title: GPT 設定
+    chat_avatar:
+      label: アバター
+      tip: '(正方形: 200x200)'
+      warn: 無効なファイル形式です。JPEG（JPG）または PNG 形式を選択してください
+    api_key:
+      label: API キー
+      warn: API キーは空にできません
+      title: API キーについて
+      link: OpenAI から API キーを取得
+      context: API キーはローカルに保存され、どこにも送信されません。
+    model: モデル
+    context_level:
+      label: コンテキストレベル
+      title: コンテキストレベルについて
+      context: モデルは過去のリクエストを記憶しておらず、すべての関連情報を対話を通じて提供する必要があります。リクエストは、0 から 100 の範囲内で設定した最新 N 個のコンテキストレベルに基づいて行われます。
+  main:
+    message:
+      delete_confirm: 削除しますか？
+
+control_center:
+  menu:
+    settings: Settings
+    prompts:
+      name: Prompts
+      user_custom: User Custom
+      sync_prompts: Sync Prompts
+      sync_custom: Sync Custom
